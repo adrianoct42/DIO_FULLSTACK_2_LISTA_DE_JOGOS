@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\ADRIANO\UFOP\CURSOS\BOOTCAMPS\FULLSTACK_TAKE_DIO\4- CRIANDO UM CATÁLOGO DE JOGOS USANDO BOAS PRÁTICAS DE ARQUITETURA COM .NET\APICatalogoDeJogos\APICatalogoDeJogos\APICatalogoDeJogos.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
